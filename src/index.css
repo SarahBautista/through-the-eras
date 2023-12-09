@@ -1,0 +1,337 @@
+@font-face {
+  font-family: Eras;
+  src: url(fonts/eras.otf);
+}
+
+@font-face {
+  font-family: Taylor Swift;
+  src: url(fonts/taylor-swift.otf);
+}
+
+@font-face {
+  font-family: Fearless;
+  src: url(fonts/fearless.otf);
+}
+
+@font-face {
+  font-family: Speak Now;
+  src: url(fonts/speak-now.otf);
+}
+
+@font-face {
+  font-family: Red;
+  src: url(fonts/red.otf);
+}
+
+@font-face {
+  font-family: "1989";
+  src: url(fonts/1989.otf);
+}
+
+@font-face {
+  font-family: reputation;
+  src: url(fonts/reputation.otf);
+}
+
+@font-face {
+  font-family: Lover;
+  src: url(fonts/lover.otf);
+}
+
+@font-face {
+  font-family: folklore;
+  src: url(fonts/folklore.otf);
+}
+
+@font-face {
+  font-family: evermore;
+  src: url(fonts/evermore.otf);
+}
+
+@font-face {
+  font-family: Midnights;
+  src: url(fonts/midnights.otf);
+}
+
+body {
+  background-color: #d1f3ff !important;
+}
+
+.navbar {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #034a62;
+  /* position: sticky;
+  top: 0px; */
+}
+
+.navbar a.active {
+  background-color: #d1f3ff;
+  color: #034a62 !important;
+  border-radius: 20px;
+}
+
+#root-container {
+  padding: 0px;
+}
+
+#body {
+  padding: 12px;
+  padding: 0px !important;
+}
+
+.navbar .container-fluid .navbar-brand {
+  color: #d1f3ff;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
+  color: #d1f3ff;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar-brand {
+  font-family: Eras;
+}
+
+.nav-item {
+  font-family: Helvetica;
+  font-weight: bold;
+  width: 100%;
+}
+
+.index-page h1,
+.index-page h3,
+.eras-page h1,
+.eras-page h3,
+.selected-eras-page h3,
+.selected-eras-page h6,
+.comments-page h1,
+.comments-page h3,
+.admin-page h1 {
+  font-family: Helvetica;
+  font-weight: bold !important;
+  color: #034a62 !important;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.index-page h1,
+.eras-page h1 {
+  margin-top: 50px;
+}
+
+.comments-page h1,
+.admin-page h1 {
+  margin-top: 20px;
+}
+
+.index-page h3,
+.eras-page h3 {
+  margin-top: 30px;
+}
+
+.comments-page h3 {
+  margin-top: 0px;
+}
+
+.selected-eras-page h6 {
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.eras-page h3 {
+  margin-bottom: 50px;
+}
+
+.comments-page .new-comment-form #feedback-prompt {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.index-page .wrapper a,
+.selected-eras-page .wrapper a,
+.comments-page .wrapper a {
+  background-color: #034a62;
+  color: #d1f3ff;
+  font-weight: bold;
+  border: none;
+  padding: 7px 17px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: larger;
+  margin: 20px;
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.index-page img {
+  width: 100%;
+  margin-top: 30px;
+}
+
+footer {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: #034a62;
+  /* letter-spacing: -1px; */
+  text-align: center;
+  padding: 13px;
+  font-size: 10px;
+}
+
+.eras-page .wrapper a {
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.selected-eras-page .wrapper a {
+  margin-bottom: 60px;
+}
+.comments-page .wrapper a {
+  margin-top: 50px;
+}
+
+.comments-page .comments .comment-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.comments-page .comments .comment-wrapper .comment {
+  border: 3px solid #034a62;
+  background-color: aliceblue;
+  border-radius: 30px;
+  font-weight: bold;
+  width: 700px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 30px;
+}
+
+.comments-page .comments .comment .comment-author {
+  color: #034a62;
+}
+
+.comments-page .comments .comment .comment-body {
+  font-size: 20px;
+}
+
+.comments-page .comments .comment .comment-timestamp {
+  font-size: 10px;
+  color: #034a62;
+}
+
+.comments-page .comments .comment .action-links {
+  display: flex;
+  justify-content: left;
+}
+
+.comments-page .comments .comment .action-links a {
+  margin-top: 10px;
+  margin-right: 30px;
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+.comments-page .comments .comment .action-links #delete-comment-link {
+  color: darkred;
+}
+
+.comments-page .new-comment-form .error-message {
+  color: darkred;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+
+.comments-page .new-comment-form .new-comment-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.comments-page .new-comment-form .new-comment-wrapper .new-comment {
+  width: 700px;
+  border: 7px solid lightblue;
+  background-color: lightblue;
+  font-weight: bold;
+  border-radius: 10px;
+  color: black;
+  margin-bottom: 0px;
+}
+
+.comments-page .new-comment-form .wrapper .submit-new-comment-button {
+  border: 3px solid lightblue;
+  background-color: lightblue;
+  color: #034a62;
+  font-weight: bold;
+  padding: 7px 17px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: larger;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.comments-page .new-comment-form .wrapper .submit-new-comment-button:disabled {
+  background-color: white;
+  color: lightblue;
+}
+
+.admin-page .form-check {
+  margin: 20px;
+  display: flex;
+  justify-content: left;
+}
+
+.admin-page .form-check .form-check-input {
+  background-color: lightblue;
+  outline: 1px solid black;
+  margin-right: 10px;
+}
+
+.admin-page .form-check .form-check-input:checked {
+  background-color: #034a62;
+  color: #d1f3ff;
+  margin-right: 10px;
+}
+
+.admin-page .admin-actions {
+  display: flex;
+  justify-content: left;
+  margin-top: 15px;
+}
+
+.admin-page .admin-actions .form-check {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.admin-page .admin-actions #delete-selected-comments-button-wrapper {
+  margin-top: 1px;
+}
+
+.admin-page .admin-actions #delete-selected-comments-button-wrapper #delete-selected-comments-button {
+  background-color: darkred;
+  border: 3px solid darkred;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  padding: 5px 15px;
+}
+
+.admin-page .admin-actions .form-check #mass-selection:indeterminate {
+  background-color: darkgray;
+}

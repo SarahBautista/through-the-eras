@@ -1,0 +1,164 @@
+{
+  "eras": [
+    {
+      "era_id": "taylor-swift",
+      "album_title": "Taylor Swift",
+      "associated_color": "#bfd8bb"
+    },
+    {
+      "era_id": "fearless",
+      "album_title": "Fearless",
+      "associated_color": "#f3c787"
+    },
+    {
+      "era_id": "speak-now",
+      "album_title": "Speak Now",
+      "associated_color": "#cfb5d4"
+    },
+    {
+      "era_id": "red",
+      "album_title": "Red",
+      "associated_color": "#803441"
+    },
+    {
+      "era_id": "1989",
+      "album_title": "1989",
+      "associated_color": "#c2e7f7"
+    },
+    {
+      "era_id": "reputation",
+      "album_title": "reputation",
+      "associated_color": "#797375"
+    },
+    {
+      "era_id": "lover",
+      "album_title": "Lover",
+      "associated_color": "#f8bad3"
+    },
+    {
+      "era_id": "folklore",
+      "album_title": "folklore",
+      "associated_color": "#d0cbc6"
+    },
+    {
+      "era_id": "evermore",
+      "album_title": "evermore",
+      "associated_color": "#c9ae94"
+    },
+    {
+      "era_id": "midnights",
+      "album_title": "Midnights",
+      "associated_color": "#54596e"
+    }
+  ],
+  "collages": [
+    {
+      "era_id": "taylor-swift",
+      "album_title": "Taylor Swift",
+      "src": "/images/taylor-swift-collage.jpeg"
+    },
+    {
+      "era_id": "fearless",
+      "album_title": "Fearless",
+      "src": "/images/fearless-collage.jpeg"
+    },
+    {
+      "era_id": "speak-now",
+      "album_title": "Speak Now",
+      "src": "/images/speak-now-collage.jpeg"
+    },
+    {
+      "era_id": "red",
+      "album_title": "Red",
+      "src": "/images/red-collage.jpeg"
+    },
+    {
+      "era_id": "1989",
+      "album_title": "1989",
+      "src": "/images/1989-collage.jpeg"
+    },
+    {
+      "era_id": "reputation",
+      "album_title": "reputation",
+      "src": "/images/reputation-collage.jpeg"
+    },
+    {
+      "era_id": "lover",
+      "album_title": "Lover",
+      "src": "/images/lover-collage.jpeg"
+    },
+    {
+      "era_id": "folklore",
+      "album_title": "folklore",
+      "src": "/images/folklore-collage.jpeg"
+    },
+    {
+      "era_id": "evermore",
+      "album_title": "evermore",
+      "src": "/images/evermore-collage.jpeg"
+    },
+    {
+      "era_id": "midnights",
+      "album_title": "Midnights",
+      "src": "/images/midnights-collage.jpeg"
+    }
+  ],
+  "comments": [
+    {
+      "id": 2,
+      "era_id": "fearless",
+      "author": "fearless era lover",
+      "body": "i love the fearless era!!!",
+      "timestamp": "Mon Nov 13 2023 14:13:13 GMT-0800 (Pacific Standard Time)"
+    },
+    {
+      "id": 5,
+      "era_id": "1989",
+      "author": "1989 era lover",
+      "body": "i love the 1989 era!!!",
+      "timestamp": "Mon Nov 13 2023 17:13:13 GMT-0800 (Pacific Standard Time)"
+    },
+    {
+      "id": 6,
+      "era_id": "reputation",
+      "author": "rep era lover",
+      "body": "i love the reputation era!!!",
+      "timestamp": "Mon Nov 13 2023 18:13:13 GMT-0800 (Pacific Standard Time)"
+    },
+    {
+      "id": 7,
+      "era_id": "lover",
+      "author": "lover era lover",
+      "body": "i love the lover era!!!",
+      "timestamp": "Mon Nov 13 2023 19:13:13 GMT-0800 (Pacific Standard Time)"
+    },
+    {
+      "id": 8,
+      "era_id": "folklore",
+      "author": "folklore era lover",
+      "body": "i love the folklore era!!!",
+      "timestamp": "Mon Nov 13 2023 20:13:13 GMT-0800 (Pacific Standard Time)"
+    },
+    {
+      "id": 9,
+      "era_id": "evermore",
+      "author": "evermore era lover",
+      "body": "i love the evermore era!!!",
+      "timestamp": "Mon Nov 13 2023 21:13:13 GMT-0800 (Pacific Standard Time)"
+    },
+    {
+      "id": 10,
+      "era_id": "midnights",
+      "author": "midnights era lover",
+      "body": "i love the midnights era!!!",
+      "timestamp": "Mon Nov 13 2023 22:13:13 GMT-0800 (Pacific Standard Time)"
+    },
+    {
+      "id": 11,
+      "era_id": "taylor-swift",
+      "author": "sarah",
+      "body": "hi!",
+      "timestamp": "Fri Dec 08 2023 22:18:11 GMT-0800 (Pacific Standard Time)"
+    }
+  ]
+}
